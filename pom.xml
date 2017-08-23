@@ -18,8 +18,11 @@
 	</properties>
 
 	<modules>
-		<module>quartz</module>
+	<module>quartz</module>
     <module>jdk</module>
+    <module>dsAndAlgo</module>
+    <module>spring</module>
+    <module>cache</module>
   </modules>
 
 	<dependencies>
