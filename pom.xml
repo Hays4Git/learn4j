@@ -18,11 +18,8 @@
 	</properties>
 
 	<modules>
-	<module>quartz</module>
-    <module>jdk</module>
-    <module>dsAndAlgo</module>
-    <module>spring</module>
-    <module>cache</module>
+    <module>learn4j-jdk</module>
+    <module>learn4j-algo</module>
   </modules>
 
 	<dependencies>
