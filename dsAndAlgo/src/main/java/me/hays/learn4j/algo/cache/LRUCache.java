@@ -1,4 +1,4 @@
-package me.hays.learn4j.dsAndAlgo.cache;
+package me.hays.learn4j.algo.cache;
 
 import java.util.LinkedHashMap;
 import java.util.Collection;

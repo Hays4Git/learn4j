@@ -1,4 +1,4 @@
-package me.hays.learn4j.dsAndAlgo.sort;
+package me.hays.learn4j.algo.sort;
 
 import java.util.Arrays;
 
