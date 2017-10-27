@@ -20,7 +20,6 @@
 	<modules>
     <module>learn4j-jdk</module>
     <module>learn4j-algo</module>
-    <module>learn4j-shiro</module>
   </modules>
 
 	<dependencies>
