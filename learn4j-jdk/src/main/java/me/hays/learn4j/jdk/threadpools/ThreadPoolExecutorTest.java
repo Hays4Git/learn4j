@@ -11,8 +11,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Test;
-
 public class ThreadPoolExecutorTest {
 	
 	//@Test
@@ -41,7 +39,7 @@ public class ThreadPoolExecutorTest {
 	
 	//在java doc中，并不提倡我们直接使用ThreadPoolExecutor
 	//而是使用Executors类中提供的几个静态方法来创建线程池
-	@Test
+	//@Test
 	public void ExecutorsStaticClassTest(){
 		try {
 			ThreadPoolExecutor newCachedThreadPoolExe = (ThreadPoolExecutor) Executors.newCachedThreadPool();        //创建一个缓冲池，缓冲池容量大小为Integer.MAX_VALUE
