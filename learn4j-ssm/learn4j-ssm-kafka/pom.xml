@@ -12,6 +12,11 @@
 	<artifactId>learn4j-ssm-kafka</artifactId>
 	<name>learn4j-ssm-kafka</name>
 
+	<properties>
+		<kafka.version>0.11.0.1</kafka.version>
+		<spring-kafka.version>1.3.0.RELEASE</spring-kafka.version>
+	</properties>
+
 	<dependencies>
 		<!--spring相关依赖 -->
 		<dependency>
@@ -47,6 +52,22 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
+		</dependency>
+		<!--kafka start -->
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-clients</artifactId>
+			<version>${kafka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-streams</artifactId>
+			<version>${kafka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+			<version>${spring-kafka.version}</version>
 		</dependency>
 	</dependencies>
 
