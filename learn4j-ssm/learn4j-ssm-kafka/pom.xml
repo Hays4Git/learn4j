@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>me.hays</groupId>
 		<artifactId>learn4j-ssm</artifactId>
-		<version>${project.version}</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>learn4j-ssm-kafka</artifactId>
 	<name>learn4j-ssm-kafka</name>
