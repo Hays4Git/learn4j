@@ -13,7 +13,7 @@
 	<name>learn4j-ssm-kafka</name>
 
 	<properties>
-		<kafka.version>0.11.0.1</kafka.version>
+		<kafka.version>0.11.0.2</kafka.version>
 		<spring-kafka.version>1.3.0.RELEASE</spring-kafka.version>
 	</properties>
 
